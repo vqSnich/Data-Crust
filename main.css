@@ -1,0 +1,249 @@
+body {
+    margin: 0px;
+}
+
+.head-container {
+    height: 1156px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-block {
+    display: flex;
+    height: 149px;
+    background: linear-gradient(
+        90deg, 
+        rgb(195 143 0) 0.024%,
+        rgb(215 158 0) 26.899%,
+        rgb(225 166 0) 84.936%
+        );
+    /* background: linear-gradient(to right, #C29109 0%, #B98A02 66%); */
+    position: relative;
+}
+
+.header-line {
+    z-index: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 95px;
+    width: 100%;    
+        
+}
+
+.header-bar {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 1502px;
+    height: 95px;
+    border: solid 1px #ffffffB6;
+    border-radius: 70px;
+    margin-top: 20px;           
+    background: radial-gradient(108.00% 179.40% at -4% 0%,rgb(243 165 19),rgba(255, 255, 255, 0.4) 100%);
+    box-shadow: 20px 15px 100px 10px rgb(255, 255, 255);
+    transform: rotate(180deg);
+}
+
+
+.nav-bar {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 149px;
+    padding: 42px 77px 0;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    transition: background-color 0.3s; 
+}
+
+.nav-bar a:hover {
+    background-color: rgba(255, 255, 255, 0.11); 
+    border-radius: 5px; 
+}
+
+
+.nav-bar_Icos {
+    z-index: 1;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.basket-ico, .menu-ico, .D-litter, .C-litter {
+    display: flex;
+    position: absolute;
+}
+
+.basket-ico {
+    right: 270px;
+    padding-top: 45px;
+}
+
+.menu-ico {
+    left: 672px;
+    padding-top: 39px;
+}
+
+.D-litter {
+    right: 722px;
+    margin-top: 42px;
+}
+
+.C-litter {
+    right: 711px;
+    margin-top: 75px;
+}
+ 
+.bg-gradient {
+    width: 100%;    
+    height: 1156px;
+    /* box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25); */
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    background: conic-gradient(from 291deg at 50% 50%, 
+     #C29208 3.6deg,
+     #E5A800 126deg,
+     #D39C00 190.8deg,
+     #E7A900 234deg,
+     #D69D00 288deg,
+     #000000 303deg,
+     #191301 360deg
+     );
+    
+    /* conic-gradient(
+    from 291deg at 53% 50%,
+    #C29109 3.6deg, 
+    #E5A800 126deg, 
+    #D39C00 190.8deg, 
+    #E7A900 234deg,
+    #D69D00 288deg, 
+    #000000 303deg,
+    #191301 360deg 
+   ); 
+*/
+}
+
+
+/* from 111deg at 50% 50%,    
+    #C29109 1%, 
+    #E5A800 35%, 
+    #D39C00 53%, 
+    #E7A900 65%,
+    #D69D00 80%, 
+    #000000 85%,
+    #191301 100% */
+       
+    /* 
+    #C29109, 
+    #E5A800, 
+    #D39C00, 
+    #E7A900,
+    #D69D00, 
+    #000000,
+    #191301 
+    */
+    
+    /* 
+    rgb(194, 145, 9),
+    rgb(229, 168, 0),
+    rgb(211, 156, 0),
+    rgb(231, 169, 0),
+    rgb(214, 157, 0),
+    rgb(0, 0, 0),
+    rgb(25, 19, 1)
+    */
+
+.DataCrust {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 71px;
+    margin-top: 358px;
+}
+
+.first_word, .second_word {
+    font-size: 150px;
+    font-family: 'Krub', sans-serif; 
+}
+
+.first_word {
+    font-weight: 700;
+}
+
+.second_word {
+    font-weight: 300;
+}
+
+.pizza-card {
+    display: flex;
+    width: 488px;
+    height: 853px;
+    margin-left: 1300px;
+    margin-top: -554px;
+    border-radius: 70px;
+}
+
+.pizza-card {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF9b;
+
+box-shadow: 10px 10px 19px 0px rgb(254, 233, 199);
+background: linear-gradient(
+    30.92deg, 
+    rgb(0, 0, 0) 30.008%,
+    rgb(182, 111, 111) 53.755%,
+    rgb(164, 76, 76) 63.241%);
+}
+
+.pizza-photo {
+    display: flex;
+    width: 718.05px;
+    height: 739.53px;
+    margin-left: -135px;
+    margin-top: 64px;
+}
+
+.pizza-card-text {
+    color: #ffffff;
+    font-family: spectral sc;
+}
+
+.pizza-card-text span {
+    display: flex;
+    text-wrap: nowrap;
+}
+
+.pizza-text1 {
+    margin-top: 37px;
+    margin-left: -563px;
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+.pizza-text2 {
+    margin-top: 681px;
+    margin-left: -516px;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+/* .transition-main { 
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+}
+*/

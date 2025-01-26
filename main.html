@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Crust</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
-        <img src="img/header__logo.png" alt="">
+        <div class="logo">
+            <img src="img/logo.svg" alt="">
+            <h1>Data <br> Crust</h1>
+        </div>
         <ul class="nav">
             <li><a href="">Пицца</a></li>
             <li><a href="">Роллы</a></li>
@@ -17,29 +23,239 @@
         </ul>
     </header>
     <main>
+        <h1 class="section_name">Популярное</h1>
        <section class="popular">
-        <h1>Популярное</h1>
         <div>
             <div class="product_card">
-                <img src="https://imgholder.ru/340x340/8493a8/adb9ca&text=Popular+Produt&font=ptsansi&fz=50" alt="">
+                <img src="img/marg.png" alt="">
                 <h1>Маргарита</h1>
                 <p>Томатный соус,<br> моцарелла, оливковое <br> масло, помидоры,<br>базилик.</p>
-                <h2>от 370р</h2>
+                <button>от 370р</button>
             </div>
             <div class="product_card">
-                <img src="https://imgholder.ru/340x340/8493a8/adb9ca&text=Popular+Produt&font=ptsansi&fz=50" alt="">
+                <img src="img/pep.png" alt="">
                 <h1>Пепперони</h1>
                 <p>Томатный соус,<br> моцарелла, Пепперони,<br> оливковое масло.</p>
-                <h2>от 340р</h2>
+                <button>от 340р</button>
             </div>
             <div class="product_card">
-                <img src="https://imgholder.ru/340x340/8493a8/adb9ca&text=Popular+Produt&font=ptsansi&fz=50" alt="">
+                <img src="img/four_cheese.png" alt="">
                 <h1>4 сыра</h1>
                 <p>Томатный соус,<br> моцарела, чеддер,<br> рокфор, эдам.</p>
-                <h2>от 340р</h2>
+                <button>от 340р</button>
             </div>
         </div>
        </section>
+       <div class="news">
+        <h1>При покупке от 1500 рублей <br>
+            <span class="ha">Пицца</span> <span class="he">Бесплатно</span>
+        </h1>
+       </div>
+       <h1 class="section_name">Пицца</h1>
+       <section class="pizza">
+            <div class="product_card">
+                <img src="img/grib.png" alt="">
+                <h1>Грибная</h1>
+                <p>томатный соус, шампиньоны, <br> полутвёрдый сыр,<br> сушёное орегано,<br> оливковое масло</p>
+                <button>от 390р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/myaso.png" alt="">
+                <h1>Мясная</h1>
+                <p>томатный соус,<br> растительное масло, <br> свинина, куриное филе,<br> сосиски, колбаса, сыр.</p>
+                <button>от 470р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/gavay.png" alt="">
+                <h1>Гавайская</h1>
+                <p>ананасы, киви, филе <br> курицы, сыр, орегано, <br> томатная паста.</p>
+                <button>от 350р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/kartel.png" alt="">
+                <h1>Мексиканская</h1>
+                <p>цыплёнок, <br> томатный соус, <br> сладкий перец, красный <br> лук, моцарелла, острый <br> перец халапеньо, томаты, <br> соус сальса.</p>
+                <button>от 520р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/moreproduct.png" alt="">
+                <h1>Морепродукты</h1>
+                <p>мидии, креветки, <br> гребешки, томатный соус, <br> оливки, сыр, орегано, <br> свежие помидоры, <br> оливковое масло.</p>
+                <button>от 480р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/chesar.png" alt="">
+                <h1>Цезарь</h1>
+                <p>Соус цезарь, куриное <br> филе, моцарела, <br> пармезан, салат, <br> оливковое масло.</p>
+                <button>от 510р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/four_cheese.png" alt="">
+                <h1>4 сыра</h1>
+                <p>Томатный соус,<br> моцарела, чеддер,<br> рокфор, эдам.</p>
+                <button>от 340р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/marg.png" alt="">
+                <h1>Маргарита</h1>
+                <p>Томатный соус,<br> моцарелла, оливковое <br> масло, помидоры,<br>базилик.</p>
+                <button>от 370р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/pep.png" alt="">
+                <h1>Пепперони</h1>
+                <p>Томатный соус,<br> моцарелла, Пепперони,<br> оливковое масло.</p>
+                <button>от 340р</button>
+            </div>
+       </section>
+       <h1 class="section_name">Роллы</h1>
+       <section class="roll">
+            <div class="product_card">
+                <img src="img/fil.png" alt="">
+                <h1>Филадельфия</h1>
+                <p>Рыба красная,<br> Творожный сыр, Огурец,<br> Авокадо.</p>
+                <button>от 340р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/cal.png" alt="">
+                <h1>Калифорния</h1>
+                <p>Авокадо, огурец, краб,<br> водоросли нори,<br> сливочный сыр.</p>
+                <button>от 370р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/tyn.png" alt="">
+                <h1>Тунец (острый)</h1>
+                <p>Сливочный сыр, Огурец,<br> Тунец, Соус Чили-манго,<br> Кляр.</p>
+                <button>от 340р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/sake.png" alt="">
+                <h1>Сяке темпура</h1>
+                <p>Лосось, Сливочный сыр, <br> Огурец, Икра летучей <br> рыбы, Спайси соус, <br> Сухари панко, Кляр.</p>
+                <button>от 340р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/chesar_roll.png" alt="">
+                <h1>Цезарь</h1>
+                <p>Куриное филе, Помидоры,<br> Творожный сыр, Лепёшка (тортилья),<br> Пармезан.</p>
+                <button>от 370р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/dragon.png" alt="">
+                <h1>Дракон</h1>
+                <p>Рис, Нори, Уксус,  Угорь,<br> Лосось, Огурец.</p>
+                <button>от 340р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/mini_crab.png" alt="">
+                <h1>Мини с крабом</h1>
+                <p>Нори, Рис, Сливочный <br> сыр, краб.</p>
+                <button>от 340р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/mini_tyn.png" alt="">
+                <h1>Мини с тунцом</h1>
+                <p>Тунец, Нори,Рис.</p>
+                <button>от 340р</button>
+            </div>
+            <div class="product_card">
+                <img src="img/mini_cucumber.png" alt="">
+                <h1>Мини с огурцом</h1>
+                <p>Огурец, Рис, Нори.</p>
+                <button>от 370р</button>
+            </div>
+       </section>
+       <h1 class="section_name">Напитки</h1>
+       <section class="drink">
+        <div class="product_card">
+            <img src="img/dobriymal.png" alt="">
+            <h1>Добрый Кола
+                <br>малина 0.5л</h1>
+            <button>115р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/cola.png" alt="">
+            <h1>Evervess Кола 0.33л</h1>
+            <button>95р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/colapol.png" alt="">
+            <h1>Evervess Кола 0.5л</h1>
+            <button>120р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/holyshit.png" alt="">
+            <h1>Негазированная
+                вода <br>
+                 “святой источник”</h1>
+            <button>90р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/zero_dobriy.png" alt="">
+            <h1>Добрый Кола<br>
+                без сахара</h1>
+            <button>115р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/dobriy_banka.png" alt="">
+            <h1>Добрый Кола 0.33л</h1>
+            <button>90р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/dobriy.png" alt="">
+            <h1>Добрый Кола 0.5л</h1>
+            <button>115р</button>
+        </div>
+       </section>
+       <h1 class="section_name">Закуски</h1>
+       <section class="snack">
+        <div class="product_card">
+            <img src="img/free.png" alt="">
+            <h1>Картошка фри<br>
+                75/150гр</h1>
+            <button>от 130р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/naggets.png" alt="">
+            <h1>Наггетсы<br>
+                6/12 шт.</h1>
+            <button>от 150р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/sandwich.png" alt="">
+            <h1>Сэндвич с курицей</h1>
+            <button>160р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/kart.png" alt="">
+            <h1>Картофель по<br>
+                деревенски<br>
+                6/12 шт.</h1>
+                <button>от 130р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/chicken.png" alt="">
+            <h1>Крылышки<br>
+                6/12 шт.</h1>
+                <button>от 180р</button>
+        </div>
+        <div class="product_card">
+            <img src="img/send.png" alt="">
+            <h1>Сэндвич с ветчиной</h1>
+            <button>160р</button>
+        </div>
+       </section>
     </main>
+    <footer>
+        <div class="logo">
+            <img src="img/logo.svg" alt="">
+            <h1><span>Data</span> <br> Crust</h1>
+        </div>
+        <div class="phone">
+            <h1>8-800-555-35-35</h1>
+            <h2>Служба поддержки</h2>
+            <p>Ежедневно с 9:00 до 23:30</p>
+        </div>
+    </footer>
 </body>
 </html>

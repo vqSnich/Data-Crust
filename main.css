@@ -10,6 +10,18 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #EEE6D1;
+    font-family: "Montserrat Alternates";
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: "League Spartan";
+}
+header > .logo{
+    margin-left: 30px;
+    scale: 0.9;
 }
 header{
     display: flex;
@@ -49,17 +61,142 @@ header > img{
     align-items: center;
     gap: 3vw;
 }
+button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
 .product_card{
     display: flex;
     width: 400px;
-    height: 500px;
+    height: 550px;
     background-color: #ffffff;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
+.product_card > p{
+    font-family: "Inter";
+}
 .product_card > img{
     width: 340px;
     height: 340px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.pizza{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3vw;
+}
+.roll{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3vw;
+}
+.drink{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3vw;
+}
+.drink > .product_card > button{
+    margin-top: 20px;
+}
+.snack > .product_card > button{
+    margin-top: 20px;
+}
+.snack{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3vw;
+    margin-bottom: 70px;
+}
+.news{
+    margin-left: 85px;
+    display: flex;
+    background-image: url(img/news.svg);
+    width: 1300px;
+    height: 250px;
+    border-radius: 35px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.news > h1{
+    margin-left: 12vw;
+    font-size: xxx-large;
+    font-weight: 300;
+    font-style: italic;
+}
+.news > h1 > .ha{
+    color: black;
+    font-weight: bold;
+}
+.news > h1 > .he{
+    color: #FFD700;
+    font-weight: bold;
+}
+.section_name{
+    margin-top: 40px;
+    font-size: xxx-large;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: #1C1C1C;
+}
+footer > .logo{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+footer > .logo > h1 > span{
+    font-weight: bold;
+}
+footer > .logo > img{
+    scale: 1.5;
+}
+footer > .logo > h1{
+    margin-left: 50px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: xxx-large;
+}
+.phone{
+    margin-top: 80px;
+    margin-left: 60px;
+    color: white;
+}
+.phone > h1{
+    font-size: xxx-large
+}
+.phone > h2{
+    font-weight: 500;
+    font-size: xx-large;
+}
+.phone > p{
+    font-size: small;
 }
